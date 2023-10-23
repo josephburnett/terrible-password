@@ -1,0 +1,8 @@
+name: 'Terrible Password'
+description: 'Generate a terrible password'
+outputs:
+  password:
+    description: 'You asked for it. Here it is!'
+runs:
+  using: 'node20'
+  main: 'index.js'
