@@ -1,0 +1,9 @@
+on: [push]
+
+jobs:
+  terrible_password_job:
+    runs-on: ubuntu-latest
+    name: A job to generate a terrible password
+    steps:
+      - name: Terrible password action step
+        uses: josephburnett/terrible-password
