@@ -6,4 +6,4 @@ jobs:
     name: A job to generate a terrible password
     steps:
       - name: Terrible password action step
-        uses: josephburnett/terrible-password
+        uses: josephburnett/terrible-password@main
